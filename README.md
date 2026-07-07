@@ -24,6 +24,7 @@ Para colaborar en este proyecto, sigue estos pasos en tu terminal para replicar 
 ### 1. Clonar el repositorio
 
 git clone https://github.com/jhordanfree/proyecto-mlops-equipo6.git
+
 cd proyecto-mlops-equipo6
 
 ### 2. Crear y activar el entorno virtual
