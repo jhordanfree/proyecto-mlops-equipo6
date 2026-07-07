@@ -48,8 +48,14 @@ pip install -r requirements.txt
 ```
 
 ### 4. Levantar el servidor de MLflow
+
 Para visualizar la interfaz gráfica y los registros de los experimentos, ejecuta:
 
-* **Usar:**
-  mlflow ui
-  El servidor estará disponible en tu navegador web ingresando a http://localhost:5000 o http://127.0.0.1:5000.
+```bash
+mlflow ui
+```
+
+El servidor estará disponible en tu navegador web ingresando a:
+
+- http://localhost:5000
+- http://127.0.0.1:5000
