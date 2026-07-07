@@ -23,25 +23,29 @@ Para colaborar en este proyecto, sigue estos pasos en tu terminal para replicar 
 
 ### 1. Clonar el repositorio
 
+```bash
 git clone https://github.com/jhordanfree/proyecto-mlops-equipo6.git
-
 cd proyecto-mlops-equipo6
+```
 
 ### 2. Crear y activar el entorno virtual
 Es indispensable usar el entorno virtual para no generar conflictos con las versiones de las librerías.
 
 * **Usar:**
   
-  python -m venv venv
-  venv\Scripts\activate
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
 ### 3. Instalar dependencias
 Con el entorno activado (debes ver (venv) en tu terminal), instala los paquetes requeridos:
 
 * **Usar:**
-  
-  python -m venv venv
-  venv\Scripts\activate
+
+```bash
+pip install -r requirements.txt
+```
 
 ### 4. Levantar el servidor de MLflow
 Para visualizar la interfaz gráfica y los registros de los experimentos, ejecuta:
